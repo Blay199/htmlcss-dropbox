@@ -1,11 +1,45 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, ol, menu {
+    list-style: none;
+    
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.container_big {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
-/* DEBUG */
 
